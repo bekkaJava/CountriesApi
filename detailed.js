@@ -1,9 +1,6 @@
 const holder = document.querySelector(".holder");
 const container = document.querySelector('.coutry-container');
 
-console.log(container);
-
-console.log(new URL(window.location).searchParams.get('name'));
 const countries = [];
 const getData = async function () {
     try {
