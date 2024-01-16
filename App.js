@@ -22,8 +22,6 @@ async function fetchData() {
 
         countryArray = countries[0];
 
-        console.log(data);
-
         init(countryArray);
 
     } catch (e) {
@@ -68,7 +66,6 @@ function init(array) {
     })
 
     let cards = document.querySelectorAll(".card");
-    console.log(cards);
 
 }
 
